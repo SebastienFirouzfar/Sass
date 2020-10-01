@@ -47,4 +47,25 @@ article code {
   word-wrap: break-word;
 }
 
+/*section avec liens*/
+.linksBlueAndRed {
+  margin-left: 5%;
+}
+.linksBlueAndRed .linksRed {
+  background-color: red;
+  border-style: solid;
+  border-radius: 10px;
+}
+.linksBlueAndRed .linksRed body {
+  color: red;
+}
+.linksBlueAndRed .linksBlue {
+  background-color: blue;
+  border-style: solid;
+  border-radius: 10px;
+}
+.linksBlueAndRed .linksBlue body {
+  color: blue;
+}
+
 /*# sourceMappingURL=exoSass.css.map */

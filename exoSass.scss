@@ -1,5 +1,7 @@
 $boxShadow : 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
 $generalPadding : 1em; //16px 
+$colorRed : red ;
+$colorblue : blue ;
 @mixin shadow($boxShadow) {
     -webkit-box-shadow: $boxShadow; 
     -moz-box-shadow : $boxShadow ;
@@ -49,6 +51,22 @@ article {
         padding: 1em 1.5em;
         display: block;
         word-wrap: break-word
+    }
+}
+
+/*section avec liens*/
+.linksBlueAndRed{
+    margin-left: 5%;
+    .linksRed{
+        background-color: $colorRed;
+        border-style:solid ;
+        border-radius: 10px;
+
+    }
+    .linksBlue{
+        background-color: $colorblue;
+        border-style:solid ;
+        border-radius: 10px;
     }
 }
 
